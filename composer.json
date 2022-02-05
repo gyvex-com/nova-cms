@@ -1,6 +1,6 @@
 {
     "name": "gyvex-com/nova-cms",
-    "description": "Transform Nova into a powerful CMS.",
+    "description": "Transform Laravel Nova into a powerful CMS.",
     "keywords": [
         "laravel",
         "nova"
@@ -17,7 +17,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "GyvexCom\\NovaCms\\FieldServiceProvider"
+                "GyvexCom\\NovaCms\\NovaCmsServiceProvider"
             ]
         }
     },

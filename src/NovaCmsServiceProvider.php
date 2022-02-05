@@ -7,7 +7,7 @@ use Illuminate\Support\ServiceProvider;
 use Laravel\Nova\Events\ServingNova;
 use Laravel\Nova\Nova;
 
-class FieldServiceProvider extends ServiceProvider
+class NovaCmsServiceProvider extends ServiceProvider
 {
     /**
      * Bootstrap any application services.
