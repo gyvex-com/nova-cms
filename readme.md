@@ -38,13 +38,13 @@ This package is in development
         - `name` (required)
         - `value` (bigText)
 
-### Farcades
+### Facades
 
-- **Farcades/Page**
+- **Facades/Page**
     - [ ] `Page::get(string|int $identifier)` - Get PageBlock collection of specific page
     - [ ] `Page::show(string|int $identifier)` - Print function to render specific page content
     
-- **Farcades/PageBlock**
+- **Facades/PageBlock**
     - [ ] `PageBlock::get(int $pageId, string|int $pageBlockIdentifier)` - Get a specific PageBlock object
     - [ ] `PageBlock::show(int $pageId, string|int $pageBlockIdentifier)` - Print function to render a specific page block without the columns
 
